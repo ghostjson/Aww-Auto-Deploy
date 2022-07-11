@@ -8,7 +8,8 @@ When the github send webhoook to this endpoint, this app will run the build.sh f
 
 |Environment Variable name| Possible Value Type | Function |
 |------------------------|---------------------|-----------|
-| WEBHOOK_SECRET=secret | secret |  Secret which should be set in the github webhook settings |
+| WEBHOOK_SECRET | secret (string) |  Secret which should be set in the github webhook settings |
+| PORT | 1372 (number) | Application port |
 
 
 ## Available Endpoints
