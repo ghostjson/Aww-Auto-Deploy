@@ -7,7 +7,7 @@ const crypto = require('crypto');
  * @param {*} next
  */
 module.exports = (req, res, next) => {
-    const webhookSecret = process.env.WEBHOOK_SECRET; // fetch the local WEBHOOK_SECRET envionment variable
+    const webhookSecret = process.env.AUTO_WEBHOOK_SECRET; // fetch the local WEBHOOK_SECRET envionment variable
 
     // check if the variable is set
     if (webhookSecret) {

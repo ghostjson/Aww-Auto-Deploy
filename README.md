@@ -8,9 +8,11 @@ When the github send webhoook to this endpoint, this app will run the build.sh f
 
 |Environment Variable name| Possible Value Type | Function |
 |------------------------|---------------------|-----------|
-| WEBHOOK_SECRET | secret (string) |  Secret which should be set in the github webhook settings |
-| PORT | 1372 (number) | Application port |
-
+| AUTO_WEBHOOK_SECRET | secret (string) |  Secret which should be set in the github webhook settings |
+| AUTO_PORT | 1372 (number) | Application port |
+| AUTO_USERNAME | username | Username for accessing the log |
+| AUTO_PASSWORD | password | Password for accessing the log |
+| AUTO_LOG_PATH | /home/usr/log | Path of the folder to which the log should be stored |
 
 ## Available Endpoints
 
